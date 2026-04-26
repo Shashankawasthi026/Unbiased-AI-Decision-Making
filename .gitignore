@@ -141,3 +141,38 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+(existing content...)
+
+.vite/
+
+# -----------------------------
+# Python (Backend)
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# -----------------------------
+# Backend specific
+# -----------------------------
+uploads/
+tmp/
+
+# -----------------------------
+# Docker
+# -----------------------------
+docker-compose.override.yml
+
+# -----------------------------
+# Misc
+# -----------------------------
+*.log
